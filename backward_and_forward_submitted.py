@@ -18,8 +18,7 @@ def baseify(n, base):
     if n < base:
         return baseValues[n]
     else:
-        return baseify(n//base, base) + baseValues[n%base]
-    
+        return baseify(n//base, base) + baseValues[n%base]    
     
     
 def is_palindrome(value):
